@@ -10,8 +10,7 @@ on:  # yamllint disable-line rule:truthy
     - cron: "37 13 */4 * *"
   workflow_dispatch:
 
-permissions:
-  permissions: write-all
+permissions: write-all
 
 env:
   REGISTRY: ghcr.io
