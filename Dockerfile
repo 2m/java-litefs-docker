@@ -1,4 +1,4 @@
-FROM library/archlinux
+FROM eclipse-temurin:21-jre-alpine
 
 LABEL maintainer="self@2m.lt"
 
